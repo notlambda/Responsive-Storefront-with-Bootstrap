@@ -1,0 +1,49 @@
+/** Global or root Variable - available everywhere on the webpage **/
+:root {
+    --app-white: rgb(255, 255, 255);
+    --app-red: rgb(170, 0, 0);
+    --app-head: rgb(181, 0, 0);
+}
+
+.finger-paint-regular {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.white {
+    color:var(--app-white);
+}
+
+.bg-white {
+    background-color: var(--app-white) !important;
+}
+
+.red {
+    color:var(--app-red);
+}
+
+.bg-red {
+    background-color: var(--app-red);
+}
+
+.head {
+    color:var(--app-head);
+}
+
+.bg-head {
+    background-color: var(--app-head);
+}
+
+/** Bootstrap overrides **/
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--app-red);
+}
+
+.btn-red {
+    background-color: var(--app-red);
+}
+
+.btn-red:hover {
+    background-color: red;
+}
