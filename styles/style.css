@@ -1,0 +1,53 @@
+#logo {
+    height: 55px;
+    width:55px;
+}
+
+#showcase {
+    height:auto;
+    width:auto;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+   
+}
+
+.card-img-top{
+    margin: 0 auto;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.container img {
+    max-width: 200px;
+}
+
+.container-md img {
+    max-width: 400px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #6c757d;
+  }
+
+  .feature-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
