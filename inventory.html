@@ -1,0 +1,115 @@
+<!---
+Andrew Latini
+ajl6678
+2/29/24
+-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lambda Clothing Co.</title>
+        <link rel="stylesheet" href="styles/popup.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+  </head>
+
+    <body>
+        <nav data-bs-theme="dark" class="navbar navbar-expand-sm bg-secondary-subtle sticky-top">
+            <div class="container-fluid">
+                <!-- 1. Logo -->
+                <span class="navbar-brand" >
+                  <img  src="images/lambda_logo.png"id="logo">
+                </span>
+                <!-- 2. Brand -->
+                <span class="navbar-brand h1 mb-0 macondo-swash caps-regular">
+                    Lambda Clothing Co.
+                </span>
+                <!-- 2.1 Collapse/Expand menu -->
+                <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-menu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="navbar-collapse collapse" id="nav-menu">
+                  <div class="navbar-nav nav-underline w-100 justify-content-center">
+                      <a class="nav-link macondo-swash caps-regular" href="event.html">Home Page</a>
+                      <a class="nav-link macondo-swash caps-regular" href="product.html"
+                      aria-current="page ">Product Page</a>
+                      <a class="nav-link active macondo-swash caps-regular" href="inventory.html">Inventory</a>
+                  </div>
+                </div>
+            </div>
+          </nav>
+        
+        <main class="container">
+            <h1 class="display-4 text-danger">
+                Our Products
+            </h1>
+
+            <table class="table table-hover table-striped align-middle text-center">
+                <!--Table Header-->
+                <tr class="table-dark">
+                    <th scope="col">Name</th>
+                    <th scope="col">Colorway</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                </tr>
+                <tr>
+                    <td>Market Designer Arc</td>
+                    <td>'Fern'</td>
+                    <td><img src="images/tshirt.png" class="img-thumbnail" width="200px"></td>
+                    <td>$200</td>
+                </tr>
+
+                <tr>
+                    <td>Market Hardware Carpenter Shorts</td>
+                    <td>'Tea'</td>
+                    <td><img src="images/shorts.png" class="img-thumbnail" width="200px"></td>
+                    <td>$75</td>
+                </tr>
+
+                <tr>
+                    <td>Saint Laurent Sunglasses</td>
+                    <td>'Shiny Solid Black'</td>
+                    <td><img src="images/ysl-sunglasses.png" class="img-thumbnail" width="200px"></td>
+                    <td>$450</td>
+                </tr>
+
+                <tr>
+                    <td>Stussy Work Jacket</td>
+                    <td>'Wine'</td>
+                    <td><img src="images/stussy.png" class="img-thumbnail" width="200px"></td>
+                    <td>$250</td>
+                </tr>
+
+                <tr>
+                    <td>Stussy Mesh Short Sport</td>
+                    <td>'Wine'</td>
+                    <td><img src="images/stussy-short.png" class="img-thumbnail" width="200px"></td>
+                    <td>$75</td>
+                </tr>
+
+                <tr>
+                    <td>Jacquemus Le Bob Bordado</td>
+                    <td>'Khaki'</td>
+                    <td><img src="images/hat.png" class="img-thumbnail" width="200px"></td>
+                    <td>$50</td>
+                </tr>
+            </table>
+        </main>    
+        <footer class="footer mt-auto py-3">
+            <div class="container text-center">
+                <span>&copy; 2024 Lambda Clothing Co. All rights reserved.</span><br>
+                <span>12 Main St, New York City, New York</span><br>
+                <a href="mailto:info@lambdaclothingco.com" class="text-white">Email: info@lambdaclothingco.com</a><br>                <span>Phone: +1 (123) 456-7890</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
